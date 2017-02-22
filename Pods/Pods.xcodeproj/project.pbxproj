@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A74AF501D07ED09830F1A4FE93598B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		16DE5C90ED223725D39751649F827EC8 /* Pods-KiiPushTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCFFF7509D89A08C4D32D76127A7C08 /* Pods-KiiPushTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF2151717256A1B1A29E3C3C2E7FBFE /* Pods-KiiPushTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C7CB2FDF4B9F1A1F77D95CB60B2A04 /* Pods-KiiPushTest-dummy.m */; };
+		4752D8CCCFDFBB50E01784F2E2B5842A /* Pods-KiiPushTest-KiiPushTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 969121DA48A40F29E0480E54C3BD7431 /* Pods-KiiPushTest-KiiPushTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA36648FE282B80C38940A65981BD52 /* Pods-KiiPushTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E38E5B47E40238C89212626E8AB386AF /* Pods-KiiPushTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B6CD6EFF79DD38F86AA2A1670EE66C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9F350FF78DC6951F96FD73E7356978BE /* Pods-KiiPushTest-KiiPushTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E43C15A0C2BCBAF55D388E13CC7BD66 /* Pods-KiiPushTest-KiiPushTestTests-dummy.m */; };
+		E4D7E6CEBCCA6D8A5E98AB06B29DA10A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FCED0394DAF6AF5E140E9F6203C6CC41 /* Pods-KiiPushTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7651CDA788EB668FB7255DADE2C2B56 /* Pods-KiiPushTestUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		009D7A83E4BC13DD45A768240407BDA3 /* KiiUserBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiUserBuilder.h; path = KiiSDK.framework/Headers/KiiUserBuilder.h; sourceTree = "<group>"; };
+		03E20119CE3DFE6451338B908228C885 /* KiiPhotoColleRTransferManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiPhotoColleRTransferManager.h; path = KiiSDK.framework/Headers/KiiPhotoColleRTransferManager.h; sourceTree = "<group>"; };
+		05BB02A40962902599E5B4A4609BBE4A /* Pods_KiiPushTest_KiiPushTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiiPushTest_KiiPushTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D68B209F1CE93CE75F29A1AFA65A7E /* KiiSocialAccountInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiSocialAccountInfo.h; path = KiiSDK.framework/Headers/KiiSocialAccountInfo.h; sourceTree = "<group>"; };
+		07763E2E55A9CEFEC2921CF55AC2833A /* KiiDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiDownloader.h; path = KiiSDK.framework/Headers/KiiDownloader.h; sourceTree = "<group>"; };
+		0AAB9328D4DAFE84BB7B97BB1685E982 /* KiiRTransferManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiRTransferManaging.h; path = KiiSDK.framework/Headers/KiiRTransferManaging.h; sourceTree = "<group>"; };
+		0B8FD9ACD24A8695BDEC0AE47DDE0BA1 /* KiiEncryptedBucket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiEncryptedBucket.h; path = KiiSDK.framework/Headers/KiiEncryptedBucket.h; sourceTree = "<group>"; };
+		0C3C9831B4A6AA54DAFB98BD791A6A9A /* KiiResumableTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiResumableTransfer.h; path = KiiSDK.framework/Headers/KiiResumableTransfer.h; sourceTree = "<group>"; };
+		0E3D419351A6CE7127530D22BE704AE9 /* KiiBucket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiBucket.h; path = KiiSDK.framework/Headers/KiiBucket.h; sourceTree = "<group>"; };
+		0EF3F500A910A2A638F74192F062749D /* Pods-KiiPushTest-KiiPushTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KiiPushTest-KiiPushTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		14431CC3A7406C4FFB076837671AAF89 /* KiiVariation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiVariation.h; path = KiiSDK.framework/Headers/KiiVariation.h; sourceTree = "<group>"; };
+		168DDE88151E4B422577EEBF1EEE3199 /* Pods-KiiPushTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KiiPushTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1738670C48C8E02DC6AE320182E4226C /* Pods-KiiPushTest-KiiPushTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KiiPushTest-KiiPushTestTests-resources.sh"; sourceTree = "<group>"; };
+		1884C77560EF2F590D36AF6D18FA0C88 /* KiiRTransferManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiRTransferManager.h; path = KiiSDK.framework/Headers/KiiRTransferManager.h; sourceTree = "<group>"; };
+		21A2ABAB0CE0967AA364F5AB1AD97898 /* KiiError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiError.h; path = KiiSDK.framework/Headers/KiiError.h; sourceTree = "<group>"; };
+		22F3F6CEC563A027E641624961E9F183 /* KiiACLEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiACLEntry.h; path = KiiSDK.framework/Headers/KiiACLEntry.h; sourceTree = "<group>"; };
+		248FB4558FBF53A574B6A1007B0CBC19 /* Pods-KiiPushTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KiiPushTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28C7CB2FDF4B9F1A1F77D95CB60B2A04 /* Pods-KiiPushTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KiiPushTest-dummy.m"; sourceTree = "<group>"; };
+		29FF3BAB4B07DCE4CC966FBF107BBBCA /* KiiListResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiListResult.h; path = KiiSDK.framework/Headers/KiiListResult.h; sourceTree = "<group>"; };
+		2C188B20F3D12E39CE9D383CDA0D178C /* Pods-KiiPushTest-KiiPushTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KiiPushTest-KiiPushTestTests.modulemap"; sourceTree = "<group>"; };
+		2E43C15A0C2BCBAF55D388E13CC7BD66 /* Pods-KiiPushTest-KiiPushTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KiiPushTest-KiiPushTestTests-dummy.m"; sourceTree = "<group>"; };
+		2E59EB594CC76F3EC2CA43ACA19339E8 /* KiiServerCodeEntryArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiServerCodeEntryArgument.h; path = KiiSDK.framework/Headers/KiiServerCodeEntryArgument.h; sourceTree = "<group>"; };
+		2E5F9C9C6F52DE5A25C99D5AFD3C04A0 /* KAGroupedSnapShot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KAGroupedSnapShot.h; path = KiiSDK.framework/Headers/KAGroupedSnapShot.h; sourceTree = "<group>"; };
+		2F37D7C2122A6019CC96209F51AE41C5 /* KiiPushMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiPushMessage.h; path = KiiSDK.framework/Headers/KiiPushMessage.h; sourceTree = "<group>"; };
+		317AB8FAEC9A93DA81AFCA827BB3550B /* KiiGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiGeoPoint.h; path = KiiSDK.framework/Headers/KiiGeoPoint.h; sourceTree = "<group>"; };
+		3325E9D82B951D349912304C6364BDCC /* KiiIdentityData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiIdentityData.h; path = KiiSDK.framework/Headers/KiiIdentityData.h; sourceTree = "<group>"; };
+		35C34BAAF93DBE4B6D5F830B3F575672 /* Pods-KiiPushTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KiiPushTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		3620A6C644F0BE8E169A4118AB56009D /* KiiExperiment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiExperiment.h; path = KiiSDK.framework/Headers/KiiExperiment.h; sourceTree = "<group>"; };
+		3C14E46AF026C70571CCBFFD9794A7F3 /* KiiPhotoColleSocialConnect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiPhotoColleSocialConnect.h; path = KiiSDK.framework/Headers/KiiPhotoColleSocialConnect.h; sourceTree = "<group>"; };
+		40748A42FFBFB329BCB6520143DD9AC1 /* KiiReceivedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiReceivedMessage.h; path = KiiSDK.framework/Headers/KiiReceivedMessage.h; sourceTree = "<group>"; };
+		532F07B8A5E3EEC663F84E5ACC18A546 /* Pods-KiiPushTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KiiPushTest-frameworks.sh"; sourceTree = "<group>"; };
+		5674CB70E75DAF7CED47154D0BA0E248 /* KiiVariationSamplerByKiiUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiVariationSamplerByKiiUser.h; path = KiiSDK.framework/Headers/KiiVariationSamplerByKiiUser.h; sourceTree = "<group>"; };
+		5894BCB44746C7C244833EA5F14CE183 /* KiiUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiUser.h; path = KiiSDK.framework/Headers/KiiUser.h; sourceTree = "<group>"; };
+		59F9860B2F3D250CD5D14920F63296EC /* KiiRTransferInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiRTransferInfo.h; path = KiiSDK.framework/Headers/KiiRTransferInfo.h; sourceTree = "<group>"; };
+		617D4E127AF01A98DA3767E1F7EED012 /* Pods-KiiPushTestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KiiPushTestUITests-resources.sh"; sourceTree = "<group>"; };
+		6268609A4611988DCA8BED8AE3EE8426 /* KiiIllegalStateException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiIllegalStateException.h; path = KiiSDK.framework/Headers/KiiIllegalStateException.h; sourceTree = "<group>"; };
+		647C754546749F876095C8D8124BB54C /* KiiAnyAuthenticatedUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiAnyAuthenticatedUser.h; path = KiiSDK.framework/Headers/KiiAnyAuthenticatedUser.h; sourceTree = "<group>"; };
+		6524F8E8AF67B4EC716A60BB5F8A5CAC /* KiiServerCodeExecResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiServerCodeExecResult.h; path = KiiSDK.framework/Headers/KiiServerCodeExecResult.h; sourceTree = "<group>"; };
+		66501C7FAFE99FCCC071245487AED239 /* KiiUploadTransferManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiUploadTransferManaging.h; path = KiiSDK.framework/Headers/KiiUploadTransferManaging.h; sourceTree = "<group>"; };
+		6E68841E6A65FD39684CFAE91444E9B7 /* KiiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiObject.h; path = KiiSDK.framework/Headers/KiiObject.h; sourceTree = "<group>"; };
+		6E8C2B896746B7C0928B400B8181B4B6 /* KADateRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KADateRange.h; path = KiiSDK.framework/Headers/KADateRange.h; sourceTree = "<group>"; };
+		7886E99DE7208A8F150FD54E428B6828 /* KiiClause.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiClause.h; path = KiiSDK.framework/Headers/KiiClause.h; sourceTree = "<group>"; };
+		789F2EC7E4441F856D95A72D486CDDED /* KiiCloudPhotoColle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiCloudPhotoColle.h; path = KiiSDK.framework/Headers/KiiCloudPhotoColle.h; sourceTree = "<group>"; };
+		7A98C39CE1611DB33CDB3CEC360A8171 /* KiiQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiQuery.h; path = KiiSDK.framework/Headers/KiiQuery.h; sourceTree = "<group>"; };
+		7B0364424D1EAD4C72D7071CF442F096 /* KiiSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiSDK.h; path = KiiSDK.framework/Headers/KiiSDK.h; sourceTree = "<group>"; };
+		7B921814DC5EFA3D98B6AD16442ECC4D /* KiiTopic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiTopic.h; path = KiiSDK.framework/Headers/KiiTopic.h; sourceTree = "<group>"; };
+		7B97413CAE1DE14F04D09358F7762247 /* KAFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KAFilter.h; path = KiiSDK.framework/Headers/KAFilter.h; sourceTree = "<group>"; };
+		7D599F9D6906BD0FB87BE7AEAEF84331 /* Pods-KiiPushTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KiiPushTest-resources.sh"; sourceTree = "<group>"; };
+		82942624A16C9956DE7D6736CC5981A4 /* Pods-KiiPushTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KiiPushTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83B6839ED167599429E7A5D7E66F0578 /* KiiRTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiRTransfer.h; path = KiiSDK.framework/Headers/KiiRTransfer.h; sourceTree = "<group>"; };
+		86CBED12937A61DF4D2F096D878E77E9 /* KiiACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiACL.h; path = KiiSDK.framework/Headers/KiiACL.h; sourceTree = "<group>"; };
+		8C722190E9E44521C52C57A972CAE85D /* KiiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiiSDK.framework; sourceTree = "<group>"; };
+		8DCA41BE0F4DAFD25E00AF0E7752BA4B /* KiiServerCodeEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiServerCodeEntry.h; path = KiiSDK.framework/Headers/KiiServerCodeEntry.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9609450954C0F10B231099960D366B48 /* KiiPushSubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiPushSubscription.h; path = KiiSDK.framework/Headers/KiiPushSubscription.h; sourceTree = "<group>"; };
+		969121DA48A40F29E0480E54C3BD7431 /* Pods-KiiPushTest-KiiPushTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KiiPushTest-KiiPushTestTests-umbrella.h"; sourceTree = "<group>"; };
+		969838058A5113EDC67719C48892BB55 /* KiiThingFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiThingFields.h; path = KiiSDK.framework/Headers/KiiThingFields.h; sourceTree = "<group>"; };
+		96B036366783B5C9E9B4926C978AD9B0 /* Pods-KiiPushTest-KiiPushTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KiiPushTest-KiiPushTestTests-frameworks.sh"; sourceTree = "<group>"; };
+		9903779B8BF017850D07B716799EEFAA /* KiiGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiGroup.h; path = KiiSDK.framework/Headers/KiiGroup.h; sourceTree = "<group>"; };
+		9C547032030FE5DBF059AFCA3561403F /* Kii.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kii.h; path = KiiSDK.framework/Headers/Kii.h; sourceTree = "<group>"; };
+		9F807E2D8FAC8EFB16DF89A3A47B4F80 /* Pods-KiiPushTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KiiPushTest.modulemap"; sourceTree = "<group>"; };
+		9FCFFF7509D89A08C4D32D76127A7C08 /* Pods-KiiPushTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KiiPushTest-umbrella.h"; sourceTree = "<group>"; };
+		A54A323C0F5A47CF3F5BC0C13DB4A79E /* KiiConversionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiConversionEvent.h; path = KiiSDK.framework/Headers/KiiConversionEvent.h; sourceTree = "<group>"; };
+		A578DDA0EECE47628CB60F4D27AAC668 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D8E0881E5C2B72005D0C07 /* KiiSDK.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = KiiSDK.framework.dSYM; sourceTree = "<group>"; };
+		A6D8E08A1E5C2B72005D0C07 /* KiiSDK.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = KiiSDK.framework.dSYM; sourceTree = "<group>"; };
+		A6D8E08C1E5C2B72005D0C07 /* KiiSDK.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = KiiSDK.framework.dSYM; sourceTree = "<group>"; };
+		A6D8E08D1E5C2B72005D0C07 /* KiiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiiSDK.framework; sourceTree = "<group>"; };
+		A7651CDA788EB668FB7255DADE2C2B56 /* Pods-KiiPushTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KiiPushTestUITests-dummy.m"; sourceTree = "<group>"; };
+		A7D44C14CB9645E3468884D772E7D032 /* KiiUserFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiUserFields.h; path = KiiSDK.framework/Headers/KiiUserFields.h; sourceTree = "<group>"; };
+		A8718BD4AC55598880F2E066EB9AD048 /* KiiBaseBucket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiBaseBucket.h; path = KiiSDK.framework/Headers/KiiBaseBucket.h; sourceTree = "<group>"; };
+		AA0904A2FC6FABE1A80552A987AC7DE9 /* Pods-KiiPushTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KiiPushTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AEE6CEFF7AD555B74C791C4368196738 /* KiiSocialConnect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiSocialConnect.h; path = KiiSDK.framework/Headers/KiiSocialConnect.h; sourceTree = "<group>"; };
+		B28E256A9E2A29E44461584E73DCEB17 /* Pods_KiiPushTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiiPushTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B446783C1A01CCDB8862C566632465A1 /* KiiAPNSFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiAPNSFields.h; path = KiiSDK.framework/Headers/KiiAPNSFields.h; sourceTree = "<group>"; };
+		B7A263E5AAD5D85DCCF38E5C7730DE54 /* KiiThingOwner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiThingOwner.h; path = KiiSDK.framework/Headers/KiiThingOwner.h; sourceTree = "<group>"; };
+		B9BD900E7691132343F6CA0B4F5F38BE /* Pods-KiiPushTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KiiPushTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BF5A52DD56A7D7184B93FA2C825D9F5B /* KiiThing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiThing.h; path = KiiSDK.framework/Headers/KiiThing.h; sourceTree = "<group>"; };
+		C01497AD494406C558AAF453C9CC809A /* Pods-KiiPushTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KiiPushTest.release.xcconfig"; sourceTree = "<group>"; };
+		C066D75C82E8DF9C56883C242F7DC1CF /* KAConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KAConstants.h; path = KiiSDK.framework/Headers/KAConstants.h; sourceTree = "<group>"; };
+		C361C4F15C24410B6A33203FDB449E0F /* KAResultQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KAResultQuery.h; path = KiiSDK.framework/Headers/KAResultQuery.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBDFC234FE40C5DE6A7F4E7F24D160D1 /* Pods_KiiPushTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiiPushTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0ABD13D8FF7BDE95AA438C9B16611F9 /* KiiBaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiBaseObject.h; path = KiiSDK.framework/Headers/KiiBaseObject.h; sourceTree = "<group>"; };
+		D253CF1DC8764140C86EF395D3DF33A7 /* KiiRandomVariationSampler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiRandomVariationSampler.h; path = KiiSDK.framework/Headers/KiiRandomVariationSampler.h; sourceTree = "<group>"; };
+		DDBCF1E93BC72A69668343B3572BEE73 /* KiiIdentityDataBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiIdentityDataBuilder.h; path = KiiSDK.framework/Headers/KiiIdentityDataBuilder.h; sourceTree = "<group>"; };
+		DE8D3E30CDFDDF66D1C9A1C607D4B86D /* KiiVariationSampler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiVariationSampler.h; path = KiiSDK.framework/Headers/KiiVariationSampler.h; sourceTree = "<group>"; };
+		E094E2C2A23947485803D581551D4E2C /* KiiUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiUploader.h; path = KiiSDK.framework/Headers/KiiUploader.h; sourceTree = "<group>"; };
+		E1FF51BB9ED6F97C04F9BF428E6BB9E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38E5B47E40238C89212626E8AB386AF /* Pods-KiiPushTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KiiPushTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		E87FBABC06363297CDFC75ABE29B693B /* KAGroupedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KAGroupedResult.h; path = KiiSDK.framework/Headers/KAGroupedResult.h; sourceTree = "<group>"; };
+		E892B7185114111EDCD203762A8A706A /* LocaleContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocaleContainer.h; path = KiiSDK.framework/Headers/LocaleContainer.h; sourceTree = "<group>"; };
+		E8F88CD09DB4FD5E44F0345AD636A6AD /* KiiPushInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiPushInstallation.h; path = KiiSDK.framework/Headers/KiiPushInstallation.h; sourceTree = "<group>"; };
+		E9D134940864AC5D797FAC1A371649FE /* KiiMQTTFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiMQTTFields.h; path = KiiSDK.framework/Headers/KiiMQTTFields.h; sourceTree = "<group>"; };
+		EDFDB3AA866D8B0786184C1C05C2D4DA /* Pods-KiiPushTest-KiiPushTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KiiPushTest-KiiPushTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE4242754CAE2403B694551F8185F83E /* KiiGCMFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiGCMFields.h; path = KiiSDK.framework/Headers/KiiGCMFields.h; sourceTree = "<group>"; };
+		F42BC9567EB073A3EF4EFF671B97583A /* KiiAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiAnalytics.h; path = KiiSDK.framework/Headers/KiiAnalytics.h; sourceTree = "<group>"; };
+		F5265200997237ECAA4E62F97ABDBFD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E36510FD0A65523850C05CD7F522FB /* Pods-KiiPushTest-KiiPushTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KiiPushTest-KiiPushTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F829CE81DD044E7D63AA2E7970D9C430 /* Pods-KiiPushTest-KiiPushTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KiiPushTest-KiiPushTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F861FF6F12C05E459AD6E2145989C6DC /* FileHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileHolder.h; path = KiiSDK.framework/Headers/FileHolder.h; sourceTree = "<group>"; };
+		FB46DF828D4E1E22BAB04D38A1B59C92 /* Pods-KiiPushTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KiiPushTestUITests.modulemap"; sourceTree = "<group>"; };
+		FCA74F346776CC2EAFE6AB6E8A137B58 /* KiiCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiCallback.h; path = KiiSDK.framework/Headers/KiiCallback.h; sourceTree = "<group>"; };
+		FE34672A90367DFF22B746495B4B3EA9 /* KiiAnonymousUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiAnonymousUser.h; path = KiiSDK.framework/Headers/KiiAnonymousUser.h; sourceTree = "<group>"; };
+		FE41777747965E69BDDECA25F9D61019 /* Pods-KiiPushTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KiiPushTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEAEEB83F20177A17D2256C498D590AD /* Pods-KiiPushTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KiiPushTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB196894BC251BE726839950033C3C6 /* KiiDownloadTransferManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiiDownloadTransferManaging.h; path = KiiSDK.framework/Headers/KiiDownloadTransferManaging.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1289638EE180AB97F532DA6779ECFF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6CD6EFF79DD38F86AA2A1670EE66C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29605706F016B8D4E4D9A18D2A956839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A74AF501D07ED09830F1A4FE93598B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF9ECC2791D977745122062072F583B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D7E6CEBCCA6D8A5E98AB06B29DA10A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0372879D71A9F500964030D8EE410BEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C722190E9E44521C52C57A972CAE85D /* KiiSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DACF1F5644C3E39D43215A4FA7F438B /* KiiCloud */ = {
+			isa = PBXGroup;
+			children = (
+				F861FF6F12C05E459AD6E2145989C6DC /* FileHolder.h */,
+				C066D75C82E8DF9C56883C242F7DC1CF /* KAConstants.h */,
+				6E8C2B896746B7C0928B400B8181B4B6 /* KADateRange.h */,
+				7B97413CAE1DE14F04D09358F7762247 /* KAFilter.h */,
+				E87FBABC06363297CDFC75ABE29B693B /* KAGroupedResult.h */,
+				2E5F9C9C6F52DE5A25C99D5AFD3C04A0 /* KAGroupedSnapShot.h */,
+				C361C4F15C24410B6A33203FDB449E0F /* KAResultQuery.h */,
+				9C547032030FE5DBF059AFCA3561403F /* Kii.h */,
+				86CBED12937A61DF4D2F096D878E77E9 /* KiiACL.h */,
+				22F3F6CEC563A027E641624961E9F183 /* KiiACLEntry.h */,
+				F42BC9567EB073A3EF4EFF671B97583A /* KiiAnalytics.h */,
+				FE34672A90367DFF22B746495B4B3EA9 /* KiiAnonymousUser.h */,
+				647C754546749F876095C8D8124BB54C /* KiiAnyAuthenticatedUser.h */,
+				B446783C1A01CCDB8862C566632465A1 /* KiiAPNSFields.h */,
+				A8718BD4AC55598880F2E066EB9AD048 /* KiiBaseBucket.h */,
+				D0ABD13D8FF7BDE95AA438C9B16611F9 /* KiiBaseObject.h */,
+				0E3D419351A6CE7127530D22BE704AE9 /* KiiBucket.h */,
+				FCA74F346776CC2EAFE6AB6E8A137B58 /* KiiCallback.h */,
+				7886E99DE7208A8F150FD54E428B6828 /* KiiClause.h */,
+				789F2EC7E4441F856D95A72D486CDDED /* KiiCloudPhotoColle.h */,
+				A54A323C0F5A47CF3F5BC0C13DB4A79E /* KiiConversionEvent.h */,
+				07763E2E55A9CEFEC2921CF55AC2833A /* KiiDownloader.h */,
+				FFB196894BC251BE726839950033C3C6 /* KiiDownloadTransferManaging.h */,
+				0B8FD9ACD24A8695BDEC0AE47DDE0BA1 /* KiiEncryptedBucket.h */,
+				21A2ABAB0CE0967AA364F5AB1AD97898 /* KiiError.h */,
+				3620A6C644F0BE8E169A4118AB56009D /* KiiExperiment.h */,
+				EE4242754CAE2403B694551F8185F83E /* KiiGCMFields.h */,
+				317AB8FAEC9A93DA81AFCA827BB3550B /* KiiGeoPoint.h */,
+				9903779B8BF017850D07B716799EEFAA /* KiiGroup.h */,
+				3325E9D82B951D349912304C6364BDCC /* KiiIdentityData.h */,
+				DDBCF1E93BC72A69668343B3572BEE73 /* KiiIdentityDataBuilder.h */,
+				6268609A4611988DCA8BED8AE3EE8426 /* KiiIllegalStateException.h */,
+				29FF3BAB4B07DCE4CC966FBF107BBBCA /* KiiListResult.h */,
+				E9D134940864AC5D797FAC1A371649FE /* KiiMQTTFields.h */,
+				6E68841E6A65FD39684CFAE91444E9B7 /* KiiObject.h */,
+				03E20119CE3DFE6451338B908228C885 /* KiiPhotoColleRTransferManager.h */,
+				3C14E46AF026C70571CCBFFD9794A7F3 /* KiiPhotoColleSocialConnect.h */,
+				E8F88CD09DB4FD5E44F0345AD636A6AD /* KiiPushInstallation.h */,
+				2F37D7C2122A6019CC96209F51AE41C5 /* KiiPushMessage.h */,
+				9609450954C0F10B231099960D366B48 /* KiiPushSubscription.h */,
+				7A98C39CE1611DB33CDB3CEC360A8171 /* KiiQuery.h */,
+				D253CF1DC8764140C86EF395D3DF33A7 /* KiiRandomVariationSampler.h */,
+				40748A42FFBFB329BCB6520143DD9AC1 /* KiiReceivedMessage.h */,
+				0C3C9831B4A6AA54DAFB98BD791A6A9A /* KiiResumableTransfer.h */,
+				83B6839ED167599429E7A5D7E66F0578 /* KiiRTransfer.h */,
+				59F9860B2F3D250CD5D14920F63296EC /* KiiRTransferInfo.h */,
+				1884C77560EF2F590D36AF6D18FA0C88 /* KiiRTransferManager.h */,
+				0AAB9328D4DAFE84BB7B97BB1685E982 /* KiiRTransferManaging.h */,
+				7B0364424D1EAD4C72D7071CF442F096 /* KiiSDK.h */,
+				8DCA41BE0F4DAFD25E00AF0E7752BA4B /* KiiServerCodeEntry.h */,
+				2E59EB594CC76F3EC2CA43ACA19339E8 /* KiiServerCodeEntryArgument.h */,
+				6524F8E8AF67B4EC716A60BB5F8A5CAC /* KiiServerCodeExecResult.h */,
+				06D68B209F1CE93CE75F29A1AFA65A7E /* KiiSocialAccountInfo.h */,
+				AEE6CEFF7AD555B74C791C4368196738 /* KiiSocialConnect.h */,
+				BF5A52DD56A7D7184B93FA2C825D9F5B /* KiiThing.h */,
+				969838058A5113EDC67719C48892BB55 /* KiiThingFields.h */,
+				B7A263E5AAD5D85DCCF38E5C7730DE54 /* KiiThingOwner.h */,
+				7B921814DC5EFA3D98B6AD16442ECC4D /* KiiTopic.h */,
+				E094E2C2A23947485803D581551D4E2C /* KiiUploader.h */,
+				66501C7FAFE99FCCC071245487AED239 /* KiiUploadTransferManaging.h */,
+				5894BCB44746C7C244833EA5F14CE183 /* KiiUser.h */,
+				009D7A83E4BC13DD45A768240407BDA3 /* KiiUserBuilder.h */,
+				A7D44C14CB9645E3468884D772E7D032 /* KiiUserFields.h */,
+				14431CC3A7406C4FFB076837671AAF89 /* KiiVariation.h */,
+				DE8D3E30CDFDDF66D1C9A1C607D4B86D /* KiiVariationSampler.h */,
+				5674CB70E75DAF7CED47154D0BA0E248 /* KiiVariationSamplerByKiiUser.h */,
+				E892B7185114111EDCD203762A8A706A /* LocaleContainer.h */,
+				0372879D71A9F500964030D8EE410BEF /* Frameworks */,
+			);
+			path = KiiCloud;
+			sourceTree = "<group>";
+		};
+		245591224904800FC228E1DA83D25FEC /* Pods-KiiPushTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF51BB9ED6F97C04F9BF428E6BB9E8 /* Info.plist */,
+				9F807E2D8FAC8EFB16DF89A3A47B4F80 /* Pods-KiiPushTest.modulemap */,
+				AA0904A2FC6FABE1A80552A987AC7DE9 /* Pods-KiiPushTest-acknowledgements.markdown */,
+				35C34BAAF93DBE4B6D5F830B3F575672 /* Pods-KiiPushTest-acknowledgements.plist */,
+				28C7CB2FDF4B9F1A1F77D95CB60B2A04 /* Pods-KiiPushTest-dummy.m */,
+				532F07B8A5E3EEC663F84E5ACC18A546 /* Pods-KiiPushTest-frameworks.sh */,
+				7D599F9D6906BD0FB87BE7AEAEF84331 /* Pods-KiiPushTest-resources.sh */,
+				9FCFFF7509D89A08C4D32D76127A7C08 /* Pods-KiiPushTest-umbrella.h */,
+				FEAEEB83F20177A17D2256C498D590AD /* Pods-KiiPushTest.debug.xcconfig */,
+				C01497AD494406C558AAF453C9CC809A /* Pods-KiiPushTest.release.xcconfig */,
+			);
+			name = "Pods-KiiPushTest";
+			path = "Target Support Files/Pods-KiiPushTest";
+			sourceTree = "<group>";
+		};
+		5FF10D0943BA987CDCFF21446FBE5112 /* Pods-KiiPushTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A578DDA0EECE47628CB60F4D27AAC668 /* Info.plist */,
+				FB46DF828D4E1E22BAB04D38A1B59C92 /* Pods-KiiPushTestUITests.modulemap */,
+				FE41777747965E69BDDECA25F9D61019 /* Pods-KiiPushTestUITests-acknowledgements.markdown */,
+				248FB4558FBF53A574B6A1007B0CBC19 /* Pods-KiiPushTestUITests-acknowledgements.plist */,
+				A7651CDA788EB668FB7255DADE2C2B56 /* Pods-KiiPushTestUITests-dummy.m */,
+				B9BD900E7691132343F6CA0B4F5F38BE /* Pods-KiiPushTestUITests-frameworks.sh */,
+				617D4E127AF01A98DA3767E1F7EED012 /* Pods-KiiPushTestUITests-resources.sh */,
+				E38E5B47E40238C89212626E8AB386AF /* Pods-KiiPushTestUITests-umbrella.h */,
+				168DDE88151E4B422577EEBF1EEE3199 /* Pods-KiiPushTestUITests.debug.xcconfig */,
+				82942624A16C9956DE7D6736CC5981A4 /* Pods-KiiPushTestUITests.release.xcconfig */,
+			);
+			name = "Pods-KiiPushTestUITests";
+			path = "Target Support Files/Pods-KiiPushTestUITests";
+			sourceTree = "<group>";
+		};
+		6C97905FD01E7F197376661440897F9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8E0851E5C2B72005D0C07 /* ios-cloud-sdk-v2.6.4 */,
+				245591224904800FC228E1DA83D25FEC /* Pods-KiiPushTest */,
+				B2459FA251A8A56ED78A98450338C721 /* Pods-KiiPushTest-KiiPushTestTests */,
+				5FF10D0943BA987CDCFF21446FBE5112 /* Pods-KiiPushTestUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E22111758232B7A3411F2CF16037AB37 /* Pods */,
+				AC370A233764263E66371067E5377080 /* Products */,
+				6C97905FD01E7F197376661440897F9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D8E0851E5C2B72005D0C07 /* ios-cloud-sdk-v2.6.4 */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8E0861E5C2B72005D0C07 /* dSYMs */,
+				A6D8E08D1E5C2B72005D0C07 /* KiiSDK.framework */,
+			);
+			name = "ios-cloud-sdk-v2.6.4";
+			path = "../../Downloads/ios-cloud-sdk-v2.6.4";
+			sourceTree = "<group>";
+		};
+		A6D8E0861E5C2B72005D0C07 /* dSYMs */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8E0871E5C2B72005D0C07 /* arm64 */,
+				A6D8E0891E5C2B72005D0C07 /* armv7 */,
+				A6D8E08B1E5C2B72005D0C07 /* iphonesimulator */,
+			);
+			path = dSYMs;
+			sourceTree = "<group>";
+		};
+		A6D8E0871E5C2B72005D0C07 /* arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8E0881E5C2B72005D0C07 /* KiiSDK.framework.dSYM */,
+			);
+			path = arm64;
+			sourceTree = "<group>";
+		};
+		A6D8E0891E5C2B72005D0C07 /* armv7 */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8E08A1E5C2B72005D0C07 /* KiiSDK.framework.dSYM */,
+			);
+			path = armv7;
+			sourceTree = "<group>";
+		};
+		A6D8E08B1E5C2B72005D0C07 /* iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8E08C1E5C2B72005D0C07 /* KiiSDK.framework.dSYM */,
+			);
+			path = iphonesimulator;
+			sourceTree = "<group>";
+		};
+		AC370A233764263E66371067E5377080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBDFC234FE40C5DE6A7F4E7F24D160D1 /* Pods_KiiPushTest.framework */,
+				05BB02A40962902599E5B4A4609BBE4A /* Pods_KiiPushTest_KiiPushTestTests.framework */,
+				B28E256A9E2A29E44461584E73DCEB17 /* Pods_KiiPushTestUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2459FA251A8A56ED78A98450338C721 /* Pods-KiiPushTest-KiiPushTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5265200997237ECAA4E62F97ABDBFD8 /* Info.plist */,
+				2C188B20F3D12E39CE9D383CDA0D178C /* Pods-KiiPushTest-KiiPushTestTests.modulemap */,
+				F6E36510FD0A65523850C05CD7F522FB /* Pods-KiiPushTest-KiiPushTestTests-acknowledgements.markdown */,
+				0EF3F500A910A2A638F74192F062749D /* Pods-KiiPushTest-KiiPushTestTests-acknowledgements.plist */,
+				2E43C15A0C2BCBAF55D388E13CC7BD66 /* Pods-KiiPushTest-KiiPushTestTests-dummy.m */,
+				96B036366783B5C9E9B4926C978AD9B0 /* Pods-KiiPushTest-KiiPushTestTests-frameworks.sh */,
+				1738670C48C8E02DC6AE320182E4226C /* Pods-KiiPushTest-KiiPushTestTests-resources.sh */,
+				969121DA48A40F29E0480E54C3BD7431 /* Pods-KiiPushTest-KiiPushTestTests-umbrella.h */,
+				F829CE81DD044E7D63AA2E7970D9C430 /* Pods-KiiPushTest-KiiPushTestTests.debug.xcconfig */,
+				EDFDB3AA866D8B0786184C1C05C2D4DA /* Pods-KiiPushTest-KiiPushTestTests.release.xcconfig */,
+			);
+			name = "Pods-KiiPushTest-KiiPushTestTests";
+			path = "Target Support Files/Pods-KiiPushTest-KiiPushTestTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22111758232B7A3411F2CF16037AB37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DACF1F5644C3E39D43215A4FA7F438B /* KiiCloud */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		141B450A546E4DDCC279777CC819E808 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4752D8CCCFDFBB50E01784F2E2B5842A /* Pods-KiiPushTest-KiiPushTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A492FA80D73B27253D81A3092FD36E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DE5C90ED223725D39751649F827EC8 /* Pods-KiiPushTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9A9B3C9A3EDD4C11E4B364B938BEBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA36648FE282B80C38940A65981BD52 /* Pods-KiiPushTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		373AF0EADDA4B4F52F4E73FC08B9E742 /* Pods-KiiPushTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A9B7EF3FADE21A2F89D590D4433DC8 /* Build configuration list for PBXNativeTarget "Pods-KiiPushTestUITests" */;
+			buildPhases = (
+				97C59FC840FC81A1318F5109A27E18EB /* Sources */,
+				1289638EE180AB97F532DA6779ECFF3B /* Frameworks */,
+				9A9A9B3C9A3EDD4C11E4B364B938BEBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KiiPushTestUITests";
+			productName = "Pods-KiiPushTestUITests";
+			productReference = B28E256A9E2A29E44461584E73DCEB17 /* Pods_KiiPushTestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C3DAA20D010543B2BD2656119E4501B /* Pods-KiiPushTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62119601C100D364B73EC919878A327 /* Build configuration list for PBXNativeTarget "Pods-KiiPushTest" */;
+			buildPhases = (
+				6A762925687ADEC6CED25B863EE7819A /* Sources */,
+				BBF9ECC2791D977745122062072F583B /* Frameworks */,
+				80A492FA80D73B27253D81A3092FD36E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KiiPushTest";
+			productName = "Pods-KiiPushTest";
+			productReference = CBDFC234FE40C5DE6A7F4E7F24D160D1 /* Pods_KiiPushTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8BBC04E1536559D8DFB7F2577CCFEF1 /* Pods-KiiPushTest-KiiPushTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA70A67AE458538CFFAA43654F69813 /* Build configuration list for PBXNativeTarget "Pods-KiiPushTest-KiiPushTestTests" */;
+			buildPhases = (
+				2D3DCF53CDAC7DBE05BB9A60911E4F27 /* Sources */,
+				29605706F016B8D4E4D9A18D2A956839 /* Frameworks */,
+				141B450A546E4DDCC279777CC819E808 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KiiPushTest-KiiPushTestTests";
+			productName = "Pods-KiiPushTest-KiiPushTestTests";
+			productReference = 05BB02A40962902599E5B4A4609BBE4A /* Pods_KiiPushTest_KiiPushTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AC370A233764263E66371067E5377080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C3DAA20D010543B2BD2656119E4501B /* Pods-KiiPushTest */,
+				F8BBC04E1536559D8DFB7F2577CCFEF1 /* Pods-KiiPushTest-KiiPushTestTests */,
+				373AF0EADDA4B4F52F4E73FC08B9E742 /* Pods-KiiPushTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D3DCF53CDAC7DBE05BB9A60911E4F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F350FF78DC6951F96FD73E7356978BE /* Pods-KiiPushTest-KiiPushTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A762925687ADEC6CED25B863EE7819A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF2151717256A1B1A29E3C3C2E7FBFE /* Pods-KiiPushTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C59FC840FC81A1318F5109A27E18EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCED0394DAF6AF5E140E9F6203C6CC41 /* Pods-KiiPushTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52E86CED6FDF612C4E74146E7D033252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFDB3AA866D8B0786184C1C05C2D4DA /* Pods-KiiPushTest-KiiPushTestTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KiiPushTest-KiiPushTestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KiiPushTest-KiiPushTestTests/Pods-KiiPushTest-KiiPushTestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KiiPushTest_KiiPushTestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C6328F59DE6CDD7A8A3F57D113E3EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F829CE81DD044E7D63AA2E7970D9C430 /* Pods-KiiPushTest-KiiPushTestTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KiiPushTest-KiiPushTestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KiiPushTest-KiiPushTestTests/Pods-KiiPushTest-KiiPushTestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KiiPushTest_KiiPushTestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0023087A842891EC1E6BAE075802536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01497AD494406C558AAF453C9CC809A /* Pods-KiiPushTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KiiPushTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KiiPushTest/Pods-KiiPushTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KiiPushTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B15FD094A4D432031DBC715184434712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168DDE88151E4B422577EEBF1EEE3199 /* Pods-KiiPushTestUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KiiPushTestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KiiPushTestUITests/Pods-KiiPushTestUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KiiPushTestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4E9D483831A76E271F9DE74A3F6C7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82942624A16C9956DE7D6736CC5981A4 /* Pods-KiiPushTestUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KiiPushTestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KiiPushTestUITests/Pods-KiiPushTestUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KiiPushTestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2A5A10F30E9139941F591B58D379DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAEEB83F20177A17D2256C498D590AD /* Pods-KiiPushTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KiiPushTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KiiPushTest/Pods-KiiPushTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KiiPushTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A9B7EF3FADE21A2F89D590D4433DC8 /* Build configuration list for PBXNativeTarget "Pods-KiiPushTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15FD094A4D432031DBC715184434712 /* Debug */,
+				D4E9D483831A76E271F9DE74A3F6C7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA70A67AE458538CFFAA43654F69813 /* Build configuration list for PBXNativeTarget "Pods-KiiPushTest-KiiPushTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6328F59DE6CDD7A8A3F57D113E3EFB /* Debug */,
+				52E86CED6FDF612C4E74146E7D033252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62119601C100D364B73EC919878A327 /* Build configuration list for PBXNativeTarget "Pods-KiiPushTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A5A10F30E9139941F591B58D379DA2 /* Debug */,
+				B0023087A842891EC1E6BAE075802536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
