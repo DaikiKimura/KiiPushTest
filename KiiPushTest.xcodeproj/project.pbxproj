@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A63112271E5D686D009554ED /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63112251E5D686D009554ED /* Contacts.framework */; };
+		A63112281E5D686D009554ED /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63112261E5D686D009554ED /* ContactsUI.framework */; };
 		A6A1BA7E1E5C14730061BC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1BA7D1E5C14730061BC05 /* AppDelegate.swift */; };
 		A6A1BA801E5C14730061BC05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1BA7F1E5C14730061BC05 /* ViewController.swift */; };
 		A6A1BA831E5C14730061BC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A1BA811E5C14730061BC05 /* Main.storyboard */; };
@@ -22,6 +24,10 @@
 		A6D8E0831E5C24AD005D0C07 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8E0821E5C24AD005D0C07 /* Social.framework */; };
 		A6D8E08F1E5C2CF3005D0C07 /* KiiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8E08E1E5C2CF3005D0C07 /* KiiSDK.framework */; };
 		A6D8E0901E5C2CF3005D0C07 /* KiiSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8E08E1E5C2CF3005D0C07 /* KiiSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6E2B3FE1E5D91C300378AC2 /* AddressBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E2B3FD1E5D91C300378AC2 /* AddressBookController.swift */; };
+		A6E2B4001E5D927200378AC2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2B3FF1E5D927200378AC2 /* AddressBook.framework */; };
+		A6E2B4021E5DB1FA00378AC2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2B4011E5DB1FA00378AC2 /* CoreLocation.framework */; };
+		A6E2B4041E5DB63D00378AC2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2B4031E5DB63D00378AC2 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,8 @@
 /* Begin PBXFileReference section */
 		0C88E51B68497793D60226FD /* Pods-KiiPushTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiiPushTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiiPushTest/Pods-KiiPushTest.release.xcconfig"; sourceTree = "<group>"; };
 		223C59E7041D2CECADF51B08 /* Pods-KiiPushTest-KiiPushTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiiPushTest-KiiPushTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiiPushTest-KiiPushTestTests/Pods-KiiPushTest-KiiPushTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A63112251E5D686D009554ED /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		A63112261E5D686D009554ED /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 		A6A1BA7A1E5C14730061BC05 /* KiiPushTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiiPushTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A1BA7D1E5C14730061BC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6A1BA7F1E5C14730061BC05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +87,10 @@
 		A6D8E0821E5C24AD005D0C07 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A6D8E08E1E5C2CF3005D0C07 /* KiiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiiSDK.framework; path = "ios-cloud-sdk-v2.6.4/KiiSDK.framework"; sourceTree = "<group>"; };
 		A6D8E0921E5C642C005D0C07 /* KiiPushTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KiiPushTest.entitlements; sourceTree = "<group>"; };
+		A6E2B3FD1E5D91C300378AC2 /* AddressBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookController.swift; sourceTree = "<group>"; };
+		A6E2B3FF1E5D927200378AC2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A6E2B4011E5DB1FA00378AC2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A6E2B4031E5DB63D00378AC2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B2F085717C08D3671FD4AAD4 /* Pods-KiiPushTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiiPushTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiiPushTestUITests/Pods-KiiPushTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C62BFFE8BA42BDB12C1B367B /* Pods-KiiPushTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiiPushTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiiPushTestUITests/Pods-KiiPushTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E44EBA4F76205AF33615AC02 /* Pods-KiiPushTest-KiiPushTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiiPushTest-KiiPushTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiiPushTest-KiiPushTestTests/Pods-KiiPushTest-KiiPushTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,12 +102,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E2B4021E5DB1FA00378AC2 /* CoreLocation.framework in Frameworks */,
+				A6E2B4001E5D927200378AC2 /* AddressBook.framework in Frameworks */,
+				A63112271E5D686D009554ED /* Contacts.framework in Frameworks */,
+				A63112281E5D686D009554ED /* ContactsUI.framework in Frameworks */,
 				A6D8E0831E5C24AD005D0C07 /* Social.framework in Frameworks */,
 				A6D8E0811E5C24A6005D0C07 /* Security.framework in Frameworks */,
 				A6D8E07F1E5C249D005D0C07 /* MobileCoreServices.framework in Frameworks */,
 				A6D8E07D1E5C2490005D0C07 /* libsqlite3.tbd in Frameworks */,
 				A6D8E08F1E5C2CF3005D0C07 /* KiiSDK.framework in Frameworks */,
 				A6D8E07A1E5C247F005D0C07 /* Accounts.framework in Frameworks */,
+				A6E2B4041E5DB63D00378AC2 /* MapKit.framework in Frameworks */,
 				A6D8E07B1E5C247F005D0C07 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +176,7 @@
 				A6D8E0921E5C642C005D0C07 /* KiiPushTest.entitlements */,
 				A6A1BA7D1E5C14730061BC05 /* AppDelegate.swift */,
 				A6A1BA7F1E5C14730061BC05 /* ViewController.swift */,
+				A6E2B3FD1E5D91C300378AC2 /* AddressBookController.swift */,
 				A6A1BA811E5C14730061BC05 /* Main.storyboard */,
 				A6A1BA841E5C14730061BC05 /* Assets.xcassets */,
 				A6A1BA861E5C14730061BC05 /* LaunchScreen.storyboard */,
@@ -188,6 +206,11 @@
 		FA9DA82FCF022F0B2F0DE65F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6E2B4031E5DB63D00378AC2 /* MapKit.framework */,
+				A6E2B4011E5DB1FA00378AC2 /* CoreLocation.framework */,
+				A6E2B3FF1E5D927200378AC2 /* AddressBook.framework */,
+				A63112251E5D686D009554ED /* Contacts.framework */,
+				A63112261E5D686D009554ED /* ContactsUI.framework */,
 				A6D8E0821E5C24AD005D0C07 /* Social.framework */,
 				A6D8E0801E5C24A6005D0C07 /* Security.framework */,
 				A6D8E07E1E5C249D005D0C07 /* MobileCoreServices.framework */,
@@ -281,6 +304,9 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
 								enabled = 0;
 							};
 							com.apple.Push = {
@@ -507,6 +533,7 @@
 			files = (
 				A6A1BA801E5C14730061BC05 /* ViewController.swift in Sources */,
 				A6A1BA7E1E5C14730061BC05 /* AppDelegate.swift in Sources */,
+				A6E2B3FE1E5D91C300378AC2 /* AddressBookController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

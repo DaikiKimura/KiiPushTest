@@ -14,10 +14,14 @@ import UserNotifications
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var test: String?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        print("呼ばれてますかーーー？")
+        
+        test = "aiueo"
+        
         Kii.begin(withID: "73da6ddb", andKey: "685e5dfcde4526a24c7dd13716f0a340", andSite: KiiSite.JP)
         // Register the device to APNs.
         if #available(iOS 10, *) {
@@ -65,8 +69,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Failed to register to APNs: \(error)")
     }
     
+//    func application(_ application: UIApplication, didDecodeRestorableStateWith coder: NSCoder) {
+//        print("Notify")
+//    }
+    
+    func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
+        print("Notify")
+    }
+    
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any]) {
+//        var addressBookController = AddressBookController()
+//        addressBookController.addToAddressBook()
+        print("---Push通知を受け取りました---")
         print("Received the push notification: \(userInfo)")
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("---Push通知を受け取りました in Background??---")
+        
+        test = "kakikukeko"
+        
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
